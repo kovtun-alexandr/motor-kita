@@ -468,6 +468,7 @@
 
     &__title{
         padding-top: 75px;
+        margin-bottom: 15px;
         z-index: 1;
     }
 
@@ -476,6 +477,7 @@
     }
 
     &__form {
+        width: 323px;
         padding-top: 40px;
         padding-bottom: 163px;
         display: flex;
@@ -488,6 +490,7 @@
         line-height: 23px;
         padding: 12px 23px;
         max-width: 260px;
+        width: 100%;
         height: 50px;
         &:focus,
         &:focus-visible{
@@ -503,8 +506,8 @@
         background-position: center;
         cursor: pointer;
         &-icon{
-            width: 35px;
-            height: 15px;
+            width: 24px;
+            height: 13px;
             fill: #fff;
         }
         &:hover{
